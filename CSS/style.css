@@ -64,19 +64,33 @@
   display: flex;
   color: #fff;
 }
+.left-side-container{
+  width: 50%;
+}
+.right-side-container{
+  width: 50%;
+}
+.all-box1{
+  display: flex;
+  gap: 20px;
+}
+.all-box2{
+  display: flex;
+  gap: 20px;
+}
 .icon{
   width: 70px;
 }
 .box{
   background-color: white;
-  width: 200px;
-  height: 200px;
-  padding: 50px;
+  width: 250px;
+  height: 250px;
+  padding: 70px;
   margin-top: 20px;
   border-radius: 5px;
   color: black;
-
-
+  text-align: center;
+  /* display: flex; */
 }
 
 
